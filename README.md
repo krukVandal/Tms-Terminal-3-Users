@@ -1,11 +1,11 @@
 #Задача Терминал(пользователи) Роман Салий
 
 1.
-   -Создал пользователя vally с оболочкой useradd -m -s.
+   -Создал пользователя vally с оболочкой --> useradd -m -s.
 
-   -Создал пользователя eve без каталога домашнего useradd.
+   -Создал пользователя eve без каталога домашнего --> useradd.
 
-   -Создал директорию /home/eve и дал права eve chown eve:eve /home/eve.
+   -Создал директорию /home/eve и дал права eve --> chown eve:eve /home/eve.
 
 <img width="642" height="227" alt="image" src="https://github.com/user-attachments/assets/b8d84b88-42c5-447c-8ab4-5d9a7b506b27" />
 
@@ -13,11 +13,11 @@
 2.
    -Проверил id vally.
 
-   -Изменил имя vally на robot usermod -l.
+   -Изменил имя vally на robot --> usermod -l.
 
-   -Создал группу tms groupadd.
+   -Создал группу tms --> groupadd.
 
-   -Добавил robot в группу tms usermod -aG.
+   -Добавил robot в группу tms ->> usermod -aG.
  
    -Скриншот 3 относится к пункту 2.
 
@@ -47,13 +47,13 @@
 
 
 6.
-   -Рекурсивно назначил владельца /var/www/projects группу tms командой chgrp -R.
+   -Рекурсивно назначил владельца /var/www/projects группу tms командой --> chgrp -R.
 
    -Назначил владельца secret пользователя robot. 
 
    -Назначил владельца readme.md пользователя eve.
 
-   -Для назначения использовал chown.
+   -Для назначения использовал --> chown.
 
 <img width="938" height="677" alt="image" src="https://github.com/user-attachments/assets/d69fa03a-38bc-492d-8ff2-a9011014fd9e" />
 
