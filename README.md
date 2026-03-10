@@ -5,7 +5,7 @@
 
    - Создал пользователя eve без каталога домашнего --> `useradd`.
 
-   - Создал директорию /home/eve и дал права eve --> `chown eve:eve /home/eve`.
+   - Создал директорию `/home/eve` и дал права eve --> `chown eve:eve /home/eve`.
 
 <img width="642" height="227" alt="image" src="https://github.com/user-attachments/assets/b8d84b88-42c5-447c-8ab4-5d9a7b506b27" />
 
